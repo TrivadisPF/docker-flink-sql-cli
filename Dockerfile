@@ -21,7 +21,7 @@
 #SQL CLI - inspired by https://github.com/wuchong/flink-sql-demo/tree/v1.11-EN/sql-client
 ###############################################################################
 
-FROM flink:1.13.2-scala_2.12
+FROM flink:1.17.0-scala_2.12-java11
 
 # Create CLI lib folder
 COPY bin/* /opt/sql-client/
